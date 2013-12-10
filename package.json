@@ -1,0 +1,46 @@
+{
+  "name": "grunt-single-request",
+  "description": "One request to rule them all!",
+  "version": "0.0.1",
+  "homepage": "https://github.com/thanpolas/grunt-single-request",
+  "author": {
+    "name": "Thanasis Polychronakis",
+    "url": "http://thanpol.as"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thanpolas/grunt-single-request.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thanpolas/grunt-single-request/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/thanpolas/grunt-single-request/blob/master/LICENSE-MIT"
+    }
+  ],
+  "contributors": [
+    {}
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha -u tdd -R spec test/unit"
+  },
+  "dependencies": {
+    "lodash": "~1.3.1"
+  },
+  "devDependencies": {
+    "sinon": "~1.7.3",
+    "mocha": "~1.11.0",
+    "chai": "~1.7.1"
+  },
+  "peerDependencies": {},
+  "keywords": [
+    "grunt",
+    "gruntplugin",
+    "request"
+  ]
+}
